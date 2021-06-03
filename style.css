@@ -1,0 +1,66 @@
+h1{
+    color: chartreuse;
+}
+
+h2,p{
+    text-align: center;
+}
+
+.grid{
+    background-image: url("pattern.jpg");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.item h3{
+    color: black;
+    
+}
+
+.item{
+    background-image: url("item.jpg");
+    border-radius: 20px; 
+    background-color: #ffffff;   
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    justify-content: center;
+}
+
+.header{
+    background-image: url("th.jpg");
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.item img:hover{
+    transform: scale(1.2);
+}
+
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+}
+
